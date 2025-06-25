@@ -1,0 +1,77 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #8c52ff;
+}
+
+section {
+    text-align: center;
+    border-radius: 15px;
+    width: 600px; /* Increased from 400px */
+    height: 630px;
+    margin: auto;
+    background-color: #fff;
+    margin-top: 75px;
+    box-shadow: 0px 10px 36px 16px rgba(0,0,0,0.1);
+    padding: 30px 20px; /* Added padding */
+}
+
+.game--title {
+    padding-top: 20px;
+    font-size: 36px; /* Enlarged title */
+}
+
+.choose--text {
+    font-size: 20px;
+}
+
+.game--choose {
+    padding: 10px 0;
+}
+
+.game--choose button {
+    margin: 10px;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: fit-content;
+    margin: 30px auto;
+    margin-bottom: 20px;
+}
+
+.cell {
+    font-family: 'Poppins', sans-serif;
+    width: 90px; /* Enlarged from 50px */
+    height: 82px;
+    box-shadow: 0 0 0 2px #333333;
+    border: 2px solid #333333;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+button {
+    margin-bottom: 20px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #8c52ff;
+    cursor: pointer;
+}
+
+button:hover {
+    transition: 0.25s;
+    background-color: #c1a2fe;
+}
+
+.game--status {
+    font-size: 22px;
+    margin: 15px 0;
+}
